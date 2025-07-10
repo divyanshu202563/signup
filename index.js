@@ -1,5 +1,7 @@
 
-
+document.querySelector("#create").addEventListener("submit",function(event){
+    event.preventDefault()
+});
 
 function saveData() {
 
@@ -22,14 +24,17 @@ if (nameValue === "" || usernameValue === "" || passValue === "" || emailValue =
 }
 
 // Stores the data in local storage which can be extracted later.
-localStorage.setItem("userName", nameValue);
+localStorage.setItem("name", nameValue);
 localStorage.setItem("username", usernameValue);
 localStorage.setItem("password", passValue);
 localStorage.setItem("email", emailValue);
 
 
+alert("REDIRECTING TO HOME PAGE IN 3 SECONDS");
+
+
 setTimeout(function (){
-    window.location.href = "C:/Users/shash/OneDrive/Desktop/MUSIC-PROJECT";
+window.location.href = "https://vibeloophome.netlify.app/";
 }, 3000);
 
 
