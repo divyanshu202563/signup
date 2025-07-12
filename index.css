@@ -15,11 +15,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 24vw;
-    height: 75vh;
+    width: 27%;
+    height: 90vh;
     text-align: center;
-    /* margin-top: auto; */
-    margin: 5%;
+    
+    margin: auto;
+    margin: 1%;
 }
 .he{
     text-align: left;
@@ -38,16 +39,16 @@ h4{
 }
 .EPNAME input{
     background: transparent;
-    width: 18vw;
+    width: 100%;
     height: 4vh;
-    margin-left: -0vw;
+    margin-left: 0vw;
     border-radius: 8px;
     border: 2px solid grey;
     color: black;
 }
 .EPUSER input{
     background: transparent;
-    width: 18vw;
+    width:  100%;
     height: 4vh;
     margin-left: -0vw;
     border-radius: 8px;
@@ -56,7 +57,7 @@ h4{
 }
 .epass input{
     background: transparent;
-    width: 18vw;
+    width:  100%;
     height: 4vh;
     margin-left: -0vw;
     border-radius: 8px;
@@ -66,7 +67,7 @@ h4{
 }
 .epemail input{
     background: transparent;
-    width: 18vw;
+    width:  100%;
     height: 4vh;
     margin-left: -0vw;
     border-radius: 8px;
@@ -75,7 +76,7 @@ h4{
     color: black;
 }
 button{
-    width: 18vw;
+    width: 100%;
     height: 5vh;
     border-radius: 8px;
     background-color: #544D53;
